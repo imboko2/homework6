@@ -1,11 +1,11 @@
 body {
     background: white;
-    margin: 0 auto;
 }
 .container {
     padding: 0 45px;
     padding-top: 17px;
     width: 909px;
+    margin: 0 auto;
 }
 header ul{
     float: left;
@@ -15,7 +15,7 @@ header ul li {
 }
 li p {
     color: rgb(94, 105, 109);
-    font-family: Arial;
+    font-family: Arial,sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -38,14 +38,14 @@ margin: 0 4px 0 10px;
     background-color: rgb(177, 188, 192);
     background-image: linear-gradient(180deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(12, 50, 86) 100%);
     border-radius: 4px;
-    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
     border-top:2px solid #a6c3cf;
 }
 .navy_icon{
     padding-left: 7px;
     padding-top: 4px;
 }
-input {
+.top_input {
     border: 2px solid #82949c;
     border-radius: 2px;
     width: 107px;
@@ -53,7 +53,7 @@ input {
     margin-right:4px;
     line-height: 12px;
     color: rgb(151, 162, 166);
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode",sans-serif;
     font-size: 11px;
     font-weight: 400;
     padding-left: 4px;
@@ -66,7 +66,7 @@ input {
  }
 .nav_password a{
     color: rgb(191, 191, 191);
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode",sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 26px;
@@ -78,7 +78,7 @@ input {
 }
 .registration{
     color: white;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode",sans-serif;
     font-size: 11px;
     font-weight: 400;
     line-height: 25px;
@@ -131,4 +131,436 @@ input {
     height: 0;
     clear: both;
     visibility: hidden;
+}
+.content_menu {
+    margin-left: 2px;
+    margin-top: 6px;
+    width: 912px;
+    height: 34px;
+    background-color: white;
+    background-image: linear-gradient(to top, black 0%, rgb(87, 96, 104) 100%);
+    border: 1px solid rgb(13, 22, 66);
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.75);
+}
+.content_menu ul li{
+    float: left;
+    margin-top: 4px;
+}
+.content_menu ul li a{
+    border-radius: 39px;
+    margin-top: 4px;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(177, 188, 192);
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.content_menu_company{
+    margin-left: 131px;
+
+}
+.content_menu_company a{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.content_menu_payment a{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.content_menu_delivery a{
+    padding-left: 13px;
+    padding-right: 10px;
+}
+.content_menu_articles a{
+    padding-left: 18px;
+    padding-right: 10px;
+}
+.content_menu_contacts a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content_menu_goods{
+    margin-left: 55px;
+}
+.content_menu_goods p{
+    padding-left: 28px;
+    background:url("../img/goods.png")no-repeat ;
+    background-position: 0% 50%;
+    color: rgb(146, 155, 159);
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.content_menu_sum{
+    margin-left: 17px;
+}
+.content_menu_sum p{
+    color: rgb(138, 146, 150);
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+span{
+    margin-left: 2px;
+    color: rgb(13, 90, 143);
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.span_sum{
+    margin-left: 12px;
+}
+.content_menu ul li a:hover {
+    color: white;
+    background-image: linear-gradient(180deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(12, 50, 86) 100%);
+}
+.search{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.search_auto{
+    float: left;
+    width: 415px;
+    height: 134px;
+    background-color: white;
+    border: 1px solid rgb(156, 156, 157);
+    border-radius: 17px;
+    box-shadow: 3px 4px 5px rgba(104, 104, 104, 0.75);
+}
+.search_tires{
+    margin-left: 11px;
+    margin-right: 8px;
+    float: left;
+    width: 193px;
+    height: 137px;
+    background-color: white;
+    border: 1px solid rgb(156, 156, 157);
+    border-radius: 17px;
+    box-shadow: 3px 4px 5px rgba(150, 150, 150, 0.75);
+}
+.search_disks{
+    float: left;
+    width: 268px;
+    height: 136px;
+    background-color: white;
+    border: 1px solid rgb(156, 156, 157);
+    border-radius: 14px;
+    box-shadow: 3px 4px 5px rgba(150, 150, 150, 0.75);
+}
+.left_list{
+    float: left;
+}
+.center_list{
+    margin-top: 11px;
+    margin-left: 10px;
+    float: left;
+    width: 526px;
+    height: 627px;
+    background-color: white;
+    background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+    border-radius: 3px;
+}
+.catalog{
+    background: url("../img/icon_left.png")no-repeat;
+    margin-left: 4px;
+    margin-top: 14px;
+    border-radius: 26px;
+    width: 180px;
+    height: 25px;
+    border: 1px solid rgb(121, 135, 141);
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+    background-position: 1px 50%;
+}
+.catalog a{
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: 1px;
+    color: rgb(17, 65, 101);
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+.trade_items_left{
+    margin-top: 1px;
+    line-height: 25px;
+    color: rgb(70, 89, 97);
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.trade_items_list{
+    margin-top: 1px;
+    margin-left: 52px;
+    list-style-type: circle;
+}
+.tyres{
+    padding-left: 4px;
+    width: 146px;
+    height: 27px;
+    border: 1px solid rgb(121, 135, 141);
+    margin-top: 13px;
+    margin-left: 4px;
+    color: rgb(17, 65, 101);
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    line-height: 32px;
+}
+.circle{
+    display: inline-flex;
+    border:5.7px solid  #114165;
+    border-radius: 23px;
+    width: 11.5px;
+    height:11.5px;
+}
+.tyres_disks, .tyres_bolds{
+    padding-left: 4px;
+    width: 146px;
+    height: 27px;
+    border: 1px solid rgb(121, 135, 141);
+    margin-left: 4px;
+    color: rgb(17, 65, 101);
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    line-height: 32px;
+    margin-top: -4px;
+}
+.tyres_bolds{
+     margin-top:-3px;
+}
+.trade_items_left:hover{
+    color: rgb(12, 50, 86);
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+}
+.right_list{
+    float: left;
+}
+.catalog_right {
+    background: url("../img/icon_left.png") no-repeat;
+    margin-left: 8px;
+    margin-top: 14px;
+    border-radius: 26px;
+    width: 177px;
+    height: 25px;
+    border: 1px solid rgb(121, 135, 141);
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+    background-position: 4px 50%;
+}
+.catalog_right a{
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: -1px;
+    color: rgb(17, 65, 101);
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+.tyres_right, .tyres_right_check{
+    padding-left: 4px;
+    width: 132px;
+    height: 27px;
+    border: 1px solid rgb(121, 135, 141);
+    margin-top: 12px;
+    margin-left: 23px;
+    color: rgb(17, 65, 101);
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    line-height: 28px;
+}
+form p{
+    color: rgb(70, 89, 97);
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 57px;
+    line-height: 27px;
+}
+.right_input{
+    float: left;
+    margin-left: 33px;
+    margin-top: 9px;
+}
+.tyres_right_check{
+    margin-top: 3px
+}
+input[type='button']{
+    color: rgb(229, 233, 234);
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    width: 82px;
+    height: 26px;
+    background-image: linear-gradient(180deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(12, 50, 86) 100%);
+    border: 1px solid rgb(167, 171, 174);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 31px;
+    margin-top: 14px;
+}
+input[type='button']:focus{
+    outline: none;
+}
+.goodyear_img{
+    width: 138px;
+    height: 129px;
+    background-color: white;
+    border: 1px solid rgb(164, 174, 177);
+    border-radius: 7px;
+}
+figure {
+    height: 170px;
+    width: 129px;
+    float: left;
+}
+figure p {
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-weight: 400;
+    line-height: 13px;
+    color: rgb(32, 105, 136);
+    font-size: 15px;
+    text-align: center;
+    width: 138px;
+}
+figure figcaption{
+    text-align: center;
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-weight: 400;
+    line-height: 13px;
+    color: rgb(31, 37, 40);
+    font-size: 13px;
+    width: 139px
+}
+figure p a{
+    font-family: "Lucida Sans Unicode",sans-serif;
+    font-weight: 400;
+    line-height: 13px;
+    color: rgb(32, 105, 136);
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.price{
+    width: 145px;
+    color: rgb(17, 65, 101);
+    font-family: Arial,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+}
+.price span {
+    font-size: 12px;
+}
+.goodyear_top{
+    margin-top: 16px;
+    margin-left: 22px;
+}
+.nokian_top{
+    margin-left: 38px;
+    margin-top: 16px;
+}
+
+.hankook_top{
+    margin-top: 17px;
+    margin-left: 39px;
+}
+.goodyear_center{
+    margin-top: 31px;
+    margin-left: 24px;
+}
+.nokian_center{
+    margin-top: 31px;
+    margin-left: 36px;
+}
+.hankook_center{
+    margin-top: 31px;
+    margin-left: 38px;
+}
+.goodyear_bot{
+    margin-top: 32px;
+    margin-left: 21px;
+}
+.nokian_bot{
+    margin-top: 33px;
+    margin-left: 39px;
+}
+.hankook_bot{
+    margin-top: 33px;
+    margin-left: 40px;
+}
+.brand_logo{
+    margin-left: 106px;
+}
+.brand_logo li{
+    float: left;
+    margin-top: 42px;
+}
+.brand_logo li a{
+    margin-left: 13px;
+}
+.footer_menu{
+    margin-left: 3px;
+    margin-top: 18px;
+    width: 910px;
+    height: 101px;
+    background-color: rgb(33, 58, 77);
+    border: 1px solid rgb(36, 42, 60);
+}
+.footer_menu ul li{
+    float: left;
+}
+.footer_menu ul li a{
+    width: 296px;
+    height: 11px;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(190, 198, 201);
+    text-decoration: none;
+}
+.footer_hr {
+    height: 11px;
+    width: 1px;
+    border: none;
+    border-left: 1px solid rgb(190, 198, 201);
+    margin-right: 11px;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+.footer_menu ul{
+    margin-top: 8px;
+    margin-left: 309px;;
+}
+.footer_menu ul li a:hover{
+    color: rgb(82, 171, 203);
+}
+.footer_menu p{
+    width: 910px;
+    text-align: center;
+    height: 9px;
+    color: rgb(127, 71, 64);
+    font-family: Arial,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 37px;
 }
